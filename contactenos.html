@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="/src/css/contactenos.css">
+    <title>Dante's Bakery</title>
+
+    <!-- Checkout -->
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="form-validation.css" rel="stylesheet">
+
+  </head>
+  <body>
+    
+    <!------------------------------------------------------ Inicio de la barra de navegación --------------------------------------------------------------->
+
+    <header>
+        <nav class="navbar navbar-expand-lg mb-5">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/src/img/index/Dante´s Bakery.png" width="110" height="110" class="d-inline-block align-top" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <!-- <li class="nav-item active">
+                  <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="ordenar-ahora.html"><span class="color-texto">Ordenar Ahora</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="construye-tu-pastel.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                    <span class="color-texto"> Conrtruye Tu Pastel</span>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="envios-nacionales.html"><span class="color-texto">Envios Nacionales</span></a>
+                    <a class="dropdown-item" href="recojer-ensucursal.html"><span class="color-texto">Recojer en Sucursal</span></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="construye-tu-pastel.html"><span class="color-texto">Contruye tu Pastel</span></a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="catalgo-pasteles.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                    <span class="color-texto">Catalogo de Pasteles</span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="tipo-pasteles.html"><span class="color-texto">Tipo de pasteles</span></a>
+                      <a class="dropdown-item" href="decoracion-pasteles.html"><samp class="color-texto">Decoraciones para los pasteles</samp></a>
+                    </div>
+                </li>   
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre-nosotros.html"><span class="color-texto">Sobre Nosotros</span></a>
+                </li>             
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+    <!---------------------------------------------------------------------------- Inicio de Main ------------------------------------------------------------->
+
+    <div class="container">
+      <div class="py-5 text-center">
+        <img class="d-block mx-auto mb-4" src="/src/img/index/Dante´s Bakery.png" alt="" width="72" height="72">
+        <h2>Contactenos</h2>
+        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem voluptate in illo commodi iste quia, consequuntur aliquid ducimus eaque error enim assumenda, explicabo ea libero tenetur facilis sint pariatur natus.</p>
+      </div>
+
+        <div class="col-md-8 order-md-1">
+          <h4 class="mb-3">Direccion</h4>
+          <form class="needs-validation" novalidate>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="firstName">Nombre</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Colocar su Nombre.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="lastName">Apellido</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Colocar su Apellido
+                </div>
+              </div>
+            </div>
+    
+            <div class="mb-3">
+              <label for="username">Usuario</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">@</span>
+                </div>
+                <input type="text" class="form-control" id="username" placeholder="Usuario" required>
+                <div class="invalid-feedback" style="width: 100%;">
+                  Colocar el nombre de Usuario
+                </div>
+              </div>
+            </div>
+    
+            <div class="mb-3">
+              <label for="email">Email <span class="text-muted">(Opcional)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="mail@ejemplo.com">
+              <div class="invalid-feedback">
+                Por favor colocar su Email
+              </div>
+            </div>
+    
+            <div class="mb-3">
+              <label for="address">Direccion</label>
+              <input type="text" class="form-control" id="address" placeholder="1234 Calle " required>
+              <div class="invalid-feedback">
+               Por favor coloque su Direccion
+              </div>
+            </div>
+    
+            <div class="mb-3">
+              <label for="address2">Segunda Direccion<span class="text-muted">(Opcional)</span></label>
+              <input type="text" class="form-control" id="address2" >
+            </div>
+    
+            <div class="row">
+              <div class="col-md-5 mb-3">
+                <label for="country">Pais</label>
+                <select class="custom-select d-block w-100" id="country" required>
+                  <option value="">Escojer...</option>
+                  <option>Mexico</option>
+                </select>
+                <div class="invalid-feedback">
+                  Porfavor valide su Pais.
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="state">Estado</label>
+                <select class="custom-select d-block w-100" id="state" required>
+                  <option value="">Escojer...</option>
+                  <option>CDMX</option>
+                </select>
+                <div class="invalid-feedback">
+                  Porfavor valide su Estado.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="zip">Codigo Postal</label>
+                <input type="text" class="form-control" id="zip" placeholder="" required>
+                <div class="invalid-feedback">
+                  Se requiere C.P.
+                </div>
+              </div>
+            </div>
+            
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Continue para Contactarnos</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+
+
+    <!------------------------------------------------------------------------------ Inicio de Footer ---------------------------------------------------------------->
+
+    <footer>
+        <div class="footer mt-5">
+            <div class="row">
+            <div class="col-6">
+                <img src="/src/img/index/Dante´s Bakery.png" width="110" height="110" class="d-inline-block align-center" alt="">
+            </div>
+            <div class="col-6">
+                <div>
+                    <a href="contactenos.html"><span class="color-texto">Contactenos</span></a>
+                </div>
+                <div>
+                    <a href="politica-devolucion.html"><span class="color-texto">Poitica de devolucion</span></a>
+                </div>
+                <div>
+                    <a href="preguntas-frecuentes.html"><span class="color-texto">Preguntas mas Frecuentes</span> </a>
+                </div>
+                <div>
+                    <a href="transporte.html"><span class="color-texto">Transporte</span></a>
+                </div>
+                <div>
+                    <a href="terminos-servicio.html"><span class="color-texto">Terminos de servicio</span></a>
+                </div>
+                <div>
+                    <a href="privacidad-seguridad.html"><span class="color-texto">Privacidad y seguridad</span></a>
+                </div>
+            </div>
+           </div>
+        </div>
+    </footer>
+
+    <!-- Checkout -->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+          <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    
+          
+          <script src="form-validation.js"></script>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  </body>
+</html>
